@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Chess-Academy</title>
+  <link rel="stylesheet" href="./css/registro.css">
+  <script src="https://kit.fontawesome.com/401e9e9482.js" crossorigin="anonymous"></script>
+</head>
+<body>
+  <header class="header">
+    <figure class="logo">
+      <img src="./imgs/king.png" alt="logo-chess-academy" width=100 height=100>
+      <strong>ChessAcademy</strong>
+    </figure>
+    <nav class="nav-header">
+      <ul class="nav-menu">
+        <li class="nav-menu-item"><a href="index.html">Inicio</a></li>
+        <li class="nav-menu-item"><a href="instructores.html">Instructores</a></li>
+        <li class="nav-menu-item"><a href="contacto.html">Contacto</a></li>
+        <!-- <li><a href="#">Blog</a></li> -->
+        <li class="nav-menu-item"><a href="registro.html">Registro</a></li>
+      </ul>
+    </nav>
+  </header>
+  <main class="main">
+    <section class="register">
+      <form action="show_data.html" target="_blank">
+        <fieldset>
+          <legend>Datos Personales</legend>
+          <label for="nombre"> 
+            <span>Nombre: </span>
+            <input type="text" name="Nombre" id="nombre" placeholder="Ingrese su nombre..." autocomplete="name" required>
+          </label>
+          <label for="apellidos">
+            <span>Apellidos: </span>
+            <input type="text" name="Apellido" id="apellidos" placeholder="Ingrese su apellido..." required>
+          </label>
+          <label for="correo">
+            <span>Email:</span>
+            <input type="email" name="Correo" id="correo" placeholder="registro@ejemplo.com" autocomplete="email" required>
+          </label>
+          <label for="telefono">
+            <span>Teléfono: </span>
+            <input type="number" name="Celular" id="telefono" required>
+          </label>
+          <label for="data">
+            <span>Fecha de nacimiento: </span>
+           <input type="date" name="fecha-nacimiento" id="data">
+          </label>
+          <input class="buttonr" type="submit" value="Enviar">
+        </fieldset>
+    </form>
+    </section>
+    <figure class="image-register">
+      <img src="./imgs/registro.jpg" alt="peon-registro">
+    </figure>
+  </main>
+  <footer class="footer">
+    <p>Copyright © ChessAcademy 2020 - Todos los derechos reservados.</p>
+      <a href="https://www.instagram.com/jromerobarreto/" target="_blank"><i class="fab fa-instagram-square fa-3x" aria-hidden="true"></i></a>
+      <a href="https://www.facebook.com/jaime.romerobarreto/" target="_blank"><i class="fab fa-facebook-square fa-3x" aria-hidden="true"></i></a>
+      <a href="https://twitter.com/jjromerobarreto" target="_blank"><i class="fab fa-twitter-square fa-3x" aria-hidden="true"></i></a>
+  </footer>
+</body>
+</html>
